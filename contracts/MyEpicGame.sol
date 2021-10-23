@@ -11,6 +11,9 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 
 import "hardhat/console.sol";
 
+// Helper we wrote to encode in Base64
+import "./libraries/Base64.sol";
+
 // Our contract inherits from ERC721, which is the standard NFT contract!
 contract MyEpicGame is ERC721 {
 
